@@ -8,7 +8,7 @@
 
 - Created - 2024
 
-- Technologies Used - Html , css , sass , java script
+- Technologies Used - Html , css , sass , bootstrap , java script
 
 - Hooks Used : useState 
 
