@@ -1,0 +1,113 @@
+main {
+  width: 100%;
+  height: 100vh;
+  text-transform: capitalize;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-size: cover;
+  background-image: url(../img/pngtree-tablet-blank-computer-professional-photo-image_39946624.jpg);
+}
+
+#vertmenu {
+  visibility: hidden;
+  overflow: hidden;
+}
+
+nav > a {
+  animation: big 2s infinite;
+  font-weight: bolder;
+  right: 0;
+  top: 0;
+  color: #8561A4;
+}
+nav > .row > div > .row h3 {
+  text-shadow: 2px 1px 2px black;
+  font-weight: bold;
+  letter-spacing: 8px;
+  color: #8561A4;
+}
+nav > .row > div > .row h3 strong {
+  color: rgb(255, 255, 255);
+}
+nav > .row > div > .row a {
+  font-size: 1.8rem;
+  transition: 0.5s;
+  text-shadow: 2px 1px 2px black;
+}
+nav > .row > div > .row a:hover {
+  transform: rotate(180deg);
+  transform-origin: center;
+}
+nav .verm {
+  height: 100vh;
+}
+nav ul li {
+  transition: 1s;
+}
+nav ul li:hover {
+  background-color: rgba(133, 97, 164, 0.4392156863);
+}
+nav ul li:hover > a {
+  color: white;
+  letter-spacing: normal;
+}
+nav ul li > a {
+  color: black;
+  transition: 1s;
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 5px;
+}
+nav nav > ul > li:hover > a {
+  transform: translateX(30px);
+}
+
+@keyframes big {
+  0% {
+    font-size: 2rem;
+    opacity: 1;
+  }
+  100% {
+    font-size: 4rem;
+    opacity: 0.5;
+  }
+}
+.pmodal {
+  width: 400px;
+  height: 300px;
+  transform: translateY(-50%);
+}
+.pmodal > div {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.692);
+}
+.pmodal h1 {
+  font-weight: bold;
+}
+.pmodal button {
+  background-color: rgba(133, 97, 164, 0.4784313725);
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.808);
+  transition: 0.5s;
+}
+.pmodal button:hover {
+  box-shadow: "none";
+}
+
+.opmodal {
+  background-color: rgba(133, 97, 164, 0.4392156863);
+  overflow: hidden;
+  visibility: hidden;
+}
+.opmodal > div > div {
+  width: 400px;
+  height: 300px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.692);
+}
+.opmodal > div > div a {
+  font-size: 2rem;
+  transition: 0.5s;
+}
+.opmodal > div > div a:hover {
+  font-weight: bolder;
+  transform: scale(1.2);
+}/*# sourceMappingURL=master.css.map */

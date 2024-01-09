@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/stylesheet/master.css">
+    <link rel="stylesheet" href="assets/font/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <main>
+        <section class="container-fluid containerd-xxl">
+            <div class="row justify-content-evenly position-relative ">
+
+                <nav class="   col-12 justify-content-end position-relative">
+                    <a href="#" class="py-2 px-5  text-decoration-none text-end position-absolute "
+                        onclick="vertmenu()"> &#9776;</a>
+                    <div class="row  col-4 bg-white verm " id="vertmenu">
+                        <div>
+                            <div class="row p-2 justify-content-around align-items-center">
+                                <h3 class="py-2 col-10">coding <strong>addict</strong></h2>
+                                    <a href="#" class="d-flex col-2 text-danger text-decoration-none"
+                                        onclick="_close()"><i class="bi bi-x"></i></a>
+                            </div>
+                        </div>
+                        <nav class="m-0 p-0">
+                            <ul class="p-0 ">
+                                <li class="p-3 my-2 list-unstyled"><a href="#"
+                                        class="d-flex w-100 text-decoration-none ">home</a></li>
+                                <li class="p-3 my-2 list-unstyled"><a href="#"
+                                        class="d-flex w-100 text-decoration-none ">about</a></li>
+                                <li class="p-3 my-2 list-unstyled"><a href="#"
+                                        class="d-flex w-100 text-decoration-none ">projects</a></li>
+                                <li class="p-3 my-2 list-unstyled"><a href="#"
+                                        class="d-flex w-100 text-decoration-none ">contact</a></li>
+
+                            </ul>
+                        </nav>
+                        <div>
+                            <ul class="p-0 d-flex">
+                                <li class="px-3 py-2 m-1 list-unstyled  rounded-circle"><a href="#"
+                                        class="d-flex w-100 text-decoration-none "><i class="bi bi-instagram"></i></a>
+                                </li>
+                                <li class="px-3 py-2 m-1 list-unstyled  rounded-circle"><a href="#"
+                                        class="d-flex w-100 text-decoration-none "><i class="bi bi-linkedin"></i></li>
+                                <li class="px-3 py-2 m-1 list-unstyled  rounded-circle"><a href="#"
+                                        class="d-flex w-100 text-decoration-none "><i class="bi bi-github"></i></a></li>
+                                <li class="px-3 py-2 m-1 list-unstyled  rounded-circle"><a href="#"
+                                        class="d-flex w-100 text-decoration-none "><i class="bi bi-twitter-x"></i></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="col-12 pmodal position-absolute top-50">
+                    <div class="row  justify-content-center bg-white rounded-3 py-5">
+                        <h1 class="text-center mb-4 ">modal project</h1>
+                        <button class="p-2 my-2 text-white text-uppercase rounded-3 col-6" onclick="openmd()">open modal</button>
+                    </div>
+                </div>
+                <div class="col-12 opmodal position-absolute top-0 w-100 h-100">
+                    <div class="row  justify-content-center align-items-center rounded-3 py-5 h-100">
+                        <div class="bg-white ">
+                            <a href="#" class="d-flex col-2 text-danger text-decoration-none mt-2 mb-5"
+                                        onclick="closemd()"><i class="bi bi-x"></i></a>
+                            <h2 class="text-center my-5 ">modal content</h2>
+                            <div>
+                                <ul class="p-0 d-flex">
+                                    <li class="px-3 py-2 m-1 list-unstyled  rounded-circle"><a href="#"
+                                            class="d-flex w-100 text-decoration-none text-dark"><i class="bi bi-instagram"></i></a>
+                                    </li>
+                                    <li class="px-3 py-2 m-1 list-unstyled  rounded-circle"><a href="#"
+                                            class="d-flex w-100 text-decoration-none text-dark"><i class="bi bi-linkedin"></i></li>
+                                    <li class="px-3 py-2 m-1 list-unstyled  rounded-circle"><a href="#"
+                                            class="d-flex w-100 text-decoration-none text-dark"><i class="bi bi-github"></i></a></li>
+                                    <li class="px-3 py-2 m-1 list-unstyled  rounded-circle"><a href="#"
+                                            class="d-flex w-100 text-decoration-none text-dark"><i class="bi bi-twitter-x"></i></a>
+                                    </li>
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/javascript/master.js">
+       
+    </script>
+</body>
+
+</html>
